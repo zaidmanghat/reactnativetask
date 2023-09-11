@@ -1,13 +1,5 @@
-import React, {useEffect, useState} from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  View,
-  StatusBar,
-  Image,
-  Text,
-  ActivityIndicator,
-} from 'react-native';
+import React, {useEffect} from 'react';
+import {StatusBar} from 'react-native';
 import {Model} from './components/screens/Models';
 import {Profile} from './components/screens/Profile';
 import {Details} from './components/screens/Details';
@@ -90,5 +82,3 @@ export default function App() {
     </RNCSafeAreaProvider>
   );
 }
-
-const styles = StyleSheet.create({});
